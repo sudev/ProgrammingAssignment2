@@ -30,7 +30,7 @@ cacheSolve <- function(x, ...) {
   # Assign data to variable mat (matrix)
   matris <- x$get()
   # Calculate the inverse value
-  inv <- solve(matris) %*% matris
+  inv <- solve(matris)
   # Set the inverse value to cache memory
   x$setinverse(inv)
   # return the inverse value
