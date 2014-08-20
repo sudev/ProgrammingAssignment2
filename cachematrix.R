@@ -5,7 +5,7 @@ makeCacheMatrix <- function(x = matrix()) {
   # Set function sets the value for cache enviornment
   set <- function(y) {
     x <<- y
-    inv <- NULL
+    inv <<- NULL
   }
   # get - Returns the object
   get <- function() x
